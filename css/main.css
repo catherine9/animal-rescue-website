@@ -1,0 +1,123 @@
+html {
+  font-family: 'Lato', sans-serif;
+}
+
+
+.masthead {
+  background-color: #000;
+  color: #fff;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+}
+
+.news {
+  background-color: #eeebe9;
+}
+
+.nav {
+  position: relative;
+  background-color: #999999;
+  z-index: 2;
+}
+
+.nav li {
+  padding-top: .1rem;
+  padding-bottom: .2rem;
+}
+
+.nav a {
+  display: inline-block;
+  padding: .5rem .75rem;
+
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav a:focus,
+.nav a:hover {
+  background-color: #fff;
+  color: #113c00;
+  outline: 3px solid #000;
+}
+
+header {
+  background-color: #999999;
+  color: #fff;
+}
+
+.about {
+  position: relative;
+}
+
+label {
+  display: block;
+}
+
+input, select, textarea {
+  font-size: 1.125rem;
+  border-color: #000;
+}
+
+fieldset {
+  border: none;
+}
+
+hr {
+  border-color: #999999;
+}
+
+.opt {
+  color: #000;
+}
+
+.btn {
+  background-color: #66ccff;
+  border: none;
+  font-size: 1.25rem;
+  padding: .5em .75em;
+}
+
+.btn:hover {
+  background-color: #999999;
+}
+
+textarea {
+  min-height: 10em;
+}
+
+.banner-content{
+  color: #fff;
+}
+
+dt {
+  float: left;
+  margin-right: .3rem;
+}
+
+.banner-info {
+  color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .about-content {
+    bottom: 40%;
+    left: 30%;
+    position: absolute;
+    width: 100%;
+  }
+
+  .nav li {
+    padding-top: .1rem;
+    padding-bottom: .5rem;
+  }
+
+  .about-content p {
+    font-size: 115%;
+  }
+
+}

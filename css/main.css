@@ -2,7 +2,6 @@ html {
   font-family: 'Lato', sans-serif;
 }
 
-
 .masthead {
   background-color: #000;
   color: #fff;
@@ -20,7 +19,7 @@ footer {
 
 .nav {
   position: relative;
-  background-color: #999999;
+  background-color: #999;
   z-index: 2;
 }
 
@@ -45,7 +44,7 @@ footer {
 }
 
 header {
-  background-color: #999999;
+  background-color: #999;
   color: #fff;
 }
 
@@ -67,7 +66,7 @@ fieldset {
 }
 
 hr {
-  border-color: #999999;
+  border-color: #999;
 }
 
 .opt {
@@ -75,21 +74,21 @@ hr {
 }
 
 .btn {
-  background-color: #66ccff;
+  background-color: #6cf;
   border: none;
   font-size: 1.25rem;
   padding: .5em .75em;
 }
 
 .btn:hover {
-  background-color: #999999;
+  background-color: #999;
 }
 
 textarea {
   min-height: 10em;
 }
 
-.banner-content{
+.banner-content {
   color: #fff;
 }
 

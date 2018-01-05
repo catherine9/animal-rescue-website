@@ -84,6 +84,12 @@ hr {
   background-color: #999;
 }
 
+.btn-light {
+  border: 5px solid #6cf;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
 textarea {
   min-height: 10em;
 }

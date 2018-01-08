@@ -74,7 +74,7 @@ hr {
 }
 
 .btn {
-  background-color: #999;
+  background-color: #000;
   border: none;
   font-size: 1.25rem;
   padding: .5em .75em;
@@ -111,28 +111,6 @@ dt {
 
 .banner-info {
   color: #6cf;
-}
-
-.search-container {
-  float: right;
-}
-
-.search-container button {
-  float: right;
-  padding: 6px;
-  margin-top: 8px;
-  margin-right: 16px;
-  background: #ddd;
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
-}
-
-input[type=text] {
-  padding: 6px;
-  margin-top: 8px;
-  font-size: 17px;
-  border: none;
 }
 
 @media only screen and (min-width: 38em) {

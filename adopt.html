@@ -19,14 +19,20 @@
 
   <header class="masthead" role="banner">
     <div class="wrapper pad-t-1-2 pad-b-1-2 gutter-1-2">
-      <h1 class="push-0 bold">Loyal Rescue</h1>
+      <h1 class="push-0 yotta bold">Loyal Rescue</h1>
     </div>
     <nav class="nav" id="nav" role="navigation" tabindex="0">
-      <div class="wrapper gutter-1-2">
+      <div class="wrapper">
         <ul class="mega list-group-inline push-0">
           <li><a class="current ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="index.html">Home</a></li>
           <li><a class="current ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="adopt.html">Adoption</a></li>
           <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="rescues.html">Rescue</a></li>
+          <div class="gutter-1-2 search-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search.." name="search">
+              <button class="gutter-1-2" type="submit">Search</button>
+            </form>
+          </div>
         </ul>
       </div>
     </nav>
@@ -37,6 +43,10 @@
       <div class="embed embed-24by10">
         <img class="embed-item" src="images/dog-2.jpg" aria-details="about" alt="">
       </div>
+      <div class="about-content pad-t-2 pad-1-2">
+        <div class="wrapper gutter">
+          <h2 class="banner-content text-center pad-t-2 bold yotta">Loyal at our best</h2>
+        </div>
       <div class="about-content pad-t-2 pad-b-2">
         <div class="wrapper gutter-1-2">
   </main>
@@ -84,9 +94,9 @@
     </fieldset>
     <hr class="push-2">
     <fieldset>
-      <legend class="gutter-1-2 push giga">Address</legend>
+      <legend class="bold max-length pad-t push giga">Address</legend>
 
-      <div class="grid grid-middle pad-t-1-4">
+      <div class="wrapper grid grid-middle pad-t-1-4">
         <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
           <label class="push-1-8" for="address">Street address</label>
           <input id="address" type="number">
@@ -207,6 +217,17 @@
       </div>
     </fieldset>
 
+    <fieldset class="wrapper radio gutter-1-2">
+      <legend class="giga pad-b-1-4 pad-t">Will you have a dog run/dog house?</legend>
+      <div class="pad-b-1-2">
+        <input id="aid-yes" type="radio" name="choose-one">
+        <label for="aid-yes">Yes</label>
+
+        <input id="aid-no" type="radio" name="choose-one">
+        <label for="aid-no">No</label>
+      </div>
+    </fieldset>
+
     <div>
       <hr>
     </div>
@@ -219,7 +240,7 @@
         <hr>
       </div>
       <div class="text-center push">
-        <button class="btn" type="submit">Submit</button>
+        <button class="btn" type="submit">Submit Application</button>
       </div>
     </fieldset>
   </form>

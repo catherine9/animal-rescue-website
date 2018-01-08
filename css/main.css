@@ -1,5 +1,5 @@
 html {
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
 }
 
 .masthead {
@@ -74,20 +74,26 @@ hr {
 }
 
 .btn {
-  background-color: #6cf;
+  background-color: #999;
   border: none;
   font-size: 1.25rem;
   padding: .5em .75em;
+  color: #fff;
 }
 
 .btn:hover {
-  background-color: #999;
+  background-color: #000;
 }
 
 .btn-light {
-  border: 5px solid #6cf;
-  border-radius: 3px;
+  border-radius: 15px;
   text-decoration: none;
+  color: #000;
+  margin: .2em;
+}
+
+.btn-light:hover {
+  background-color: #999;
 }
 
 textarea {
@@ -95,7 +101,7 @@ textarea {
 }
 
 .banner-content {
-  color: #fff;
+  color: #6cf;
 }
 
 dt {
@@ -104,7 +110,29 @@ dt {
 }
 
 .banner-info {
-  color: #fff;
+  color: #6cf;
+}
+
+.search-container {
+  float: right;
+}
+
+.search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
 }
 
 @media only screen and (min-width: 38em) {

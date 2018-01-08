@@ -91,6 +91,18 @@ hr {
   color: #fff;
 }
 
+.btn-ghost {
+  border-radius: 15px;
+  text-decoration: none;
+  margin: .2em;
+  color: #fff;
+  background-color: #000;
+}
+
+.btn-ghost:hover {
+  background-color: #999;
+}
+
 .btn-light:hover {
   background-color: #999;
 }

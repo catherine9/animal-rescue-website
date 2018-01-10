@@ -104,7 +104,27 @@ hr {
 }
 
 #button {
-  margin-left: 70px;
+  margin-left: 120px;
+}
+
+#button-2 {
+  margin-left: 120px;
+}
+
+#button-3 {
+  margin-left: 120px;
+}
+
+#button-4 {
+  margin-left: 120px;
+}
+
+#button-5 {
+  margin-left: 120px;
+}
+
+#button-6 {
+  margin-left: 120px;
 }
 
 .btn-light:hover {

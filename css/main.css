@@ -80,7 +80,8 @@ hr {
 }
 
 .btn:hover {
-  background-color: #000;
+  background-color: #999;
+  color: #fff;
 }
 
 .btn-light {

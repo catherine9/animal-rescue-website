@@ -55,40 +55,38 @@
     <fieldset class="wrapper">
       <legend class="giga bold pad-b-1-4 pad-t gutter-1-2 push">Personal details</legend>
 
-      <article>
-        <div class="grid grid middle">
-          <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-            <label class="pad-b-1-8" for="name">Full name</label>
-            <input class="push-1-8" name="name" id="name">
-            <p class="micro italic push-0">Your full legal name, for insurance purposes, e.g. “Sarah Bradley”.</p>
-          </div>
-          <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-            <label class="pad-b-1-8" for="name">What should we call you?</label>
-            <input class="push-1-8" name="name" id="call">
-            <p class="micro push-0 italic">What all your friends call you, e.g. “Sarah”.</p>
-          </div>
-          <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-            <label class="push-1-8" for="email">Date of birth</label>
-            <input id="date" type="date">
-          </div>
-          <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-            <label class="pad-b-1-8" for="subject">What is your gender</label>
-            <select name="shirt" id="subject">
-              <option value="">Select male or female</option>
-              <option>Male</option>
-              <option>Female</option>
-            </select>
-          </div>
-          <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-            <label class="pad-b-1-8" for="email">Email</label>
-            <input id="email" type="email">
-          </div>
-          <div class="unit gutter-1-2 push-1-2 unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-            <label class="push-1-8" for="email">Phone number<i class="opt italic">(optional)</i></label>
-            <input id="tel" type="tel">
-          </div>
+      <div class="grid grid middle">
+        <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <label class="pad-b-1-8" for="fullname">Full name</label>
+          <input class="push-1-8" name="fullname" id="fullname" type="text">
+          <p class="micro italic push-0">Your full legal name, for insurance purposes, e.g. “Sarah Bradley”.</p>
         </div>
-      </article>
+        <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <label class="pad-b-1-8" for="call">What should we call you?</label>
+          <input class="push-1-8" name="call" id="call">
+          <p class="micro push-0 italic">What all your friends call you, e.g. “Sarah”.</p>
+        </div>
+        <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <label class="push-1-8" for="date">Date of birth</label>
+          <input id="date" type="date">
+        </div>
+        <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <label class="pad-b-1-8" for="subject">What is your gender</label>
+          <select name="subject" id="subject">
+            <option value="">Select male or female</option>
+            <option>Male</option>
+            <option>Female</option>
+          </select>
+        </div>
+        <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <label class="pad-b-1-8" for="email">Email</label>
+          <input id="email" type="email">
+        </div>
+        <div class="unit gutter-1-2 push-1-2 unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <label class="push-1-8" for="tel">Phone number<i class="opt italic">(optional)</i></label>
+          <input id="tel" type="tel">
+        </div>
+      </div>
     </fieldset>
     <hr class="push-2">
     <fieldset>
@@ -97,15 +95,15 @@
       <div class="wrapper grid grid-middle pad-t-1-4">
         <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
           <label class="push-1-8" for="address">Street address</label>
-          <input id="address" type="number">
+          <input id="address" type="text">
         </div>
         <div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
           <label class="push-1-8" for="city">City</label>
           <input id="city" name="city">
         </div>
         <div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-          <label class="push-1-8" for="info">Province</label>
-          <select name="province" id="type">
+          <label class="push-1-8" for="province">Province</label>
+          <select name="province" id="province">
             <option value="">Select a province</option>
             <option>Alberta</option>
             <option>British Columbia</option>
@@ -124,7 +122,7 @@
         </div>
         <div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
           <label class="push-1-8" for="code">Postal code</label>
-          <input class="push-0" id="code" type="number">
+          <input class="push-0" id="code" type="text">
         </div>
       </div>
     </fieldset>
@@ -135,9 +133,9 @@
 
       <div class="grid pad-b-1-2">
         <div class="push-1-4 unit xs-1 s-1 m-1-2">
-          <input id="age" type="checkbox">
-          <label for="age">Age</label>
-          <select name="age" id="select">
+          <input type="checkbox">
+          <label for="age-animal">Age</label>
+          <select name="age-animal" id="age-animal">
             <option value="">Select age</option>
             <option>5-8 months</option>
             <option>9-12 months</option>
@@ -227,7 +225,7 @@
     </fieldset>
     <hr>
     <fieldset>
-      <legend class="bold max-length pad-t push giga">Payment fee</legend>
+      <legend class="bold max-length pad-t push giga">Make your Payment</legend>
 
       <div class="wrapper grid grid-middle pad-t-1-4">
         <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">

@@ -35,7 +35,7 @@
   </header>
 
   <main role="main" id="main" tabindex="0">
-    <section class="about push" id="about" tabindex="0">
+    <article class="about push">
       <div class="embed embed-24by10">
         <img class="embed-item" src="images/dog-2.jpg" aria-details="about" alt="">
       </div>
@@ -44,229 +44,227 @@
           <h2 class="banner-content text-center pad-t-2 bold yotta">Loyal at our best</h2>
         </div>
       </div>
+    </article>
+
+    <section class="pad-t gutter-1-2 pad-b push">
+      <h2 class="gutter-2 bold push-1-2">Adoption form</h2>
+      <p class="gutter-2 mega push-1-2">Every loyal dog deserves a loving home!</p>
     </section>
-  </main>
 
-  <header class="pad-t gutter-1-2 pad-b push">
-    <h2 class="gutter-2 bold push-1-2">Adoption form</h2>
-    <p class="gutter-2 mega push-1-2">Every loyal dog deserves a loving home!</p>
-  </header>
-  <form method="POST" action="https://formspree.io/lega0232@algonquinlive.com">
-    <fieldset class="wrapper">
-      <legend class="giga bold pad-b-1-4 pad-t gutter-1-2 push">Personal details</legend>
+    <form method="POST" action="https://formspree.io/lega0232@algonquinlive.com">
+      <fieldset class="wrapper">
+        <legend class="giga bold pad-b-1-4 pad-t gutter-1-2 push">Personal details</legend>
 
-      <div class="grid grid middle">
-        <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-          <label class="pad-b-1-8" for="fullname">Full name</label>
-          <input class="push-1-8" name="fullname" id="fullname" type="text">
-          <p class="micro italic push-0">Your full legal name, for insurance purposes, e.g. “Sarah Bradley”.</p>
+        <div class="grid grid middle">
+          <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+            <label class="pad-b-1-8" for="fullname">Full name</label>
+            <input class="push-1-8" name="fullname" id="fullname" type="text">
+            <p class="micro italic push-0">Your full legal name, for insurance purposes, e.g. “Sarah Bradley”.</p>
+          </div>
+          <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+            <label class="pad-b-1-8" for="call">What should we call you?</label>
+            <input class="push-1-8" name="call" id="call">
+            <p class="micro push-0 italic">What all your friends call you, e.g. “Sarah”.</p>
+          </div>
+          <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+            <label class="push-1-8" for="date">Date of birth</label>
+            <input id="date" type="date">
+          </div>
+          <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+            <label class="pad-b-1-8" for="subject">What is your gender</label>
+            <select name="subject" id="subject">
+              <option value="">Select male or female</option>
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+          </div>
+          <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+            <label class="pad-b-1-8" for="email">Email</label>
+            <input id="email" type="email" required>
+          </div>
+          <div class="unit gutter-1-2 push-1-2 unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+            <label class="push-1-8" for="tel">Phone number<i class="opt italic">(optional)</i></label>
+            <input id="tel" type="tel">
+          </div>
         </div>
-        <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-          <label class="pad-b-1-8" for="call">What should we call you?</label>
-          <input class="push-1-8" name="call" id="call">
-          <p class="micro push-0 italic">What all your friends call you, e.g. “Sarah”.</p>
-        </div>
-        <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-          <label class="push-1-8" for="date">Date of birth</label>
-          <input id="date" type="date">
-        </div>
-        <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-          <label class="pad-b-1-8" for="subject">What is your gender</label>
-          <select name="subject" id="subject">
-            <option value="">Select male or female</option>
-            <option>Male</option>
-            <option>Female</option>
-          </select>
-        </div>
-        <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-          <label class="pad-b-1-8" for="email">Email</label>
-          <input id="email" type="email">
-        </div>
-        <div class="unit gutter-1-2 push-1-2 unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-          <label class="push-1-8" for="tel">Phone number<i class="opt italic">(optional)</i></label>
-          <input id="tel" type="tel">
-        </div>
-      </div>
-    </fieldset>
-    <hr class="push-2">
-    <fieldset>
-      <legend class="bold max-length pad-t push giga">Address</legend>
+      </fieldset>
+      <hr class="push-2">
+      <fieldset>
+        <legend class="bold max-length pad-t push giga">Address</legend>
 
-      <div class="wrapper grid grid-middle pad-t-1-4">
-        <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-          <label class="push-1-8" for="address">Street address</label>
-          <input id="address" type="text">
+        <div class="wrapper grid grid-middle pad-t-1-4">
+          <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+            <label class="push-1-8" for="address">Street address</label>
+            <input id="address" type="text">
+          </div>
+          <div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+            <label class="push-1-8" for="city">City</label>
+            <input id="city" name="city">
+          </div>
+          <div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+            <label class="push-1-8" for="province">Province</label>
+            <select name="province" id="province">
+              <option value="">Select a province</option>
+              <option>Alberta</option>
+              <option>British Columbia</option>
+              <option>Manitoba</option>
+              <option>New Brunswick</option>
+              <option>Newfoundland & Labrador</option>
+              <option>Northwest Territories</option>
+              <option>Nova Scotia</option>
+              <option>Nunavut</option>
+              <option>Ontario</option>
+              <option>Prince Edward Island</option>
+              <option>Québec</option>
+              <option>Saskatchewan</option>
+              <option>Yukon</option>
+            </select>
+          </div>
+          <div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+            <label class="push-1-8" for="code">Postal code</label>
+            <input class="push-0" id="code" type="text">
+          </div>
         </div>
-        <div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-          <label class="push-1-8" for="city">City</label>
-          <input id="city" name="city">
-        </div>
-        <div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-          <label class="push-1-8" for="province">Province</label>
-          <select name="province" id="province">
-            <option value="">Select a province</option>
-            <option>Alberta</option>
-            <option>British Columbia</option>
-            <option>Manitoba</option>
-            <option>New Brunswick</option>
-            <option>Newfoundland & Labrador</option>
-            <option>Northwest Territories</option>
-            <option>Nova Scotia</option>
-            <option>Nunavut</option>
-            <option>Ontario</option>
-            <option>Prince Edward Island</option>
-            <option>Québec</option>
-            <option>Saskatchewan</option>
-            <option>Yukon</option>
-          </select>
-        </div>
-        <div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-          <label class="push-1-8" for="code">Postal code</label>
-          <input class="push-0" id="code" type="text">
-        </div>
-      </div>
-    </fieldset>
+      </fieldset>
 
-    <hr>
-    <fieldset class="wrapper radio gutter-1-2">
-      <legend class="giga pad-t gutter-1-8">Which of the following best describes the dog that you are looking for?</legend>
-
-      <div class="grid pad-b-1-2">
-        <div class="push-1-4 unit xs-1 s-1 m-1-2">
-          <input type="checkbox">
-          <label for="age-animal">Age</label>
-          <select name="age-animal" id="age-animal">
-            <option value="">Select age</option>
-            <option>5-8 months</option>
-            <option>9-12 months</option>
-            <option>2-3 years</option>
-            <option>4-6 years</option>
-            <option>7+ years</option>
-          </select>
-        </div>
-
-        <div class="push-1-4 unit xs-1 s-1 m-1-2">
-          <input id="level" type="checkbox">
-          <label for="level">Activity Level</label>
-          <select name="level" id="choose">
-            <option value="">Select level</option>
-            <option>High</option>
-            <option>Medium</option>
-            <option>Low</option>
-          </select>
-        </div>
-
-        <div class="push-1-4 unit xs-1 s-1 m-1-2">
-          <input id="gender" type="checkbox">
-          <label for="gender">Gender</label>
-          <select name="gender" id="input">
-            <option value="">Select gender</option>
-            <option>Male</option>
-            <option>Female</option>
-          </select>
-        </div>
-
-        <div class="push-1-4 unit xs-1 s-1 m-1-2">
-          <input id="size" type="checkbox">
-          <label for="size">Size</label>
-          <select name="size" id="put">
-            <option value="">Select size</option>
-            <option>Small</option>
-            <option>Medium</option>
-            <option>Large</option>
-          </select>
-        </div>
-      </div>
-    </fieldset>
-
-    <hr>
-    <fieldset class="wrapper radio gutter-1-2">
-      <legend class="giga pad-b-1-4 pad-t">Do you have any other pets?</legend>
-      <div class="pad-b-1-2">
-        <input id="driver-yes" type="radio" name="fav-button">
-        <label for="driver-yes">Yes</label>
-
-        <input id="driver-no" type="radio" name="fav-button">
-        <label for="driver-no">No</label>
-      </div>
-    </fieldset>
-
-    <fieldset class="wrapper radio gutter-1-2">
-      <legend class="giga pad-b-1-4 pad-t">Have you ever owned a dog before?</legend>
-      <div class="pad-b-1-2">
-        <input id="truck-yes" type="radio" name="fav-pick">
-        <label for="truck-yes">Yes</label>
-
-        <input id="truck-no" type="radio" name="fav-pick">
-        <label for="truck-no">No</label>
-      </div>
-    </fieldset>
-
-    <fieldset class="wrapper radio gutter-1-2">
-      <legend class="giga pad-b-1-4 pad-t">Are your other pets spayed/neutered?</legend>
-      <div class="pad-b-1-2">
-        <input id="aid-yes" type="radio" name="choose-one">
-        <label for="aid-yes">Yes</label>
-
-        <input id="aid-no" type="radio" name="choose-one">
-        <label for="aid-no">No</label>
-      </div>
-    </fieldset>
-
-    <fieldset class="wrapper radio gutter-1-2">
-      <legend class="giga pad-b-1-4 pad-t">Will you have a dog run/dog house?</legend>
-      <div class="pad-b-1-2">
-        <input id="yes" type="radio" name="choose-one">
-        <label for="yes">Yes</label>
-
-        <input id="no" type="radio" name="choose-one">
-        <label for="no">No</label>
-      </div>
-    </fieldset>
-    <hr>
-    <fieldset>
-      <legend class="bold max-length pad-t push giga">Make your Payment</legend>
-
-      <div class="wrapper grid grid-middle pad-t-1-4">
-        <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-          <label class="push-1-8" for="address">Card Number</label>
-          <input id="card" type="number">
-        </div>
-        <div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-          <label class="push-1-8" for="city">Mothers maiden name</label>
-          <input id="maiden" name="city">
-        </div>
-        <div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-          <label class="push-1-8" for="info">Payment</label>
-          <select name="payment" id="information">
-            <option value="">Select a payment</option>
-            <option>Master</option>
-            <option>Visa</option>
-          </select>
-        </div>
-        <div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-          <label class="push-1-8" for="code">Expiration date</label>
-          <input class="push-0" id="expire" type="number">
-        </div>
-      </div>
-    </fieldset>
-
-    <div>
       <hr>
-    </div>
-    <fieldset class="wrapper radio gutter-1-2">
-      <legend>Please let us know any comments or questions you may have.</legend>
-      <div class="push">
-        <textarea class="push-2" name="info" id="info"></textarea>
-      </div>
+      <fieldset class="wrapper radio gutter-1-2">
+        <legend class="giga pad-t gutter-1-8">Which of the following best describes the dog that you are looking for?</legend>
+
+        <div class="grid pad-b-1-2">
+          <div class="push-1-4 unit xs-1 s-1 m-1-2">
+            <label class="push" for="age-animal">Age</label>
+            <select name="age-animal" id="age-animal">
+              <option value="">Select age</option>
+              <option>5-8 months</option>
+              <option>9-12 months</option>
+              <option>2-3 years</option>
+              <option>4-6 years</option>
+              <option>7+ years</option>
+            </select>
+          </div>
+
+          <div class="push-1-4 unit xs-1 s-1 m-1-2">
+            <label class="push" for="level">Activity Level</label>
+            <select name="level" id="level">
+              <option value="">Select level</option>
+              <option>High</option>
+              <option>Medium</option>
+              <option>Low</option>
+            </select>
+          </div>
+
+          <div class="push-1-4 unit xs-1 s-1 m-1-2">
+            <label class="push" for="gender">Gender</label>
+            <select name="gender" id="gender">
+              <option value="">Select gender</option>
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+          </div>
+
+          <div class="push-1-4 unit xs-1 s-1 m-1-2">
+            <label class="push" for="size">Size</label>
+            <select name="size" id="size">
+              <option value="">Select size</option>
+              <option>Small</option>
+              <option>Medium</option>
+              <option>Large</option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+
+      <hr>
+      <fieldset class="wrapper radio gutter-1-2">
+        <legend class="giga pad-b-1-4 pad-t">Do you have any other pets?</legend>
+        <div class="pad-b-1-2">
+          <input id="driver-yes" type="radio" name="fav-button">
+          <label for="driver-yes">Yes</label>
+
+          <input id="driver-no" type="radio" name="fav-button">
+          <label for="driver-no">No</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="wrapper radio gutter-1-2">
+        <legend class="giga pad-b-1-4 pad-t">Have you ever owned a dog before?</legend>
+        <div class="pad-b-1-2">
+          <input id="truck-yes" type="radio" name="fav-pick">
+          <label for="truck-yes">Yes</label>
+
+          <input id="truck-no" type="radio" name="fav-pick">
+          <label for="truck-no">No</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="wrapper radio gutter-1-2">
+        <legend class="giga pad-b-1-4 pad-t">Are your other pets spayed/neutered?</legend>
+        <div class="pad-b-1-2">
+          <input id="aid-yes" type="radio" name="choose-one">
+          <label for="aid-yes">Yes</label>
+
+          <input id="aid-no" type="radio" name="choose-one">
+          <label for="aid-no">No</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="wrapper radio gutter-1-2">
+        <legend class="giga pad-b-1-4 pad-t">Will you have a dog run/dog house?</legend>
+        <div class="pad-b-1-2">
+          <input id="yes" type="radio" name="choose-one">
+          <label for="yes">Yes</label>
+
+          <input id="no" type="radio" name="choose-one">
+          <label for="no">No</label>
+        </div>
+      </fieldset>
+      <hr>
+      <fieldset>
+        <legend class="bold max-length pad-t push giga">Make your Payment</legend>
+
+        <div class="wrapper grid grid-middle pad-t-1-4">
+          <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+            <label class="push-1-8" for="card">Card Number</label>
+            <input id="card" type="number">
+          </div>
+          <div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+            <label class="push-1-8" for="maiden">Mothers maiden name</label>
+            <input id="maiden" name="city">
+          </div>
+          <div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+            <label class="push-1-8" for="information">Payment</label>
+            <select name="payment" id="information">
+              <option value="">Select a payment</option>
+              <option>Master</option>
+              <option>Visa</option>
+            </select>
+          </div>
+          <div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+            <label class="push-1-8" for="expire">Expiration date</label>
+            <input class="push-0" id="expire" type="number">
+          </div>
+        </div>
+      </fieldset>
+
       <div>
         <hr>
       </div>
-      <div class="text-center push">
-        <button class="btn btn-light" type="submit">Submit Application</button>
-      </div>
-    </fieldset>
-  </form>
+      <fieldset class="wrapper radio gutter-1-2">
+        <legend>Please let us know any comments or questions you may have.</legend>
+        <div class="push">
+          <label for="info">More information</label>
+          <textarea class="push-2" name="info" id="info"></textarea>
+        </div>
+        <div>
+          <hr>
+        </div>
+        <div class="text-center push">
+          <button class="btn btn-light" type="submit">Submit Application</button>
+        </div>
+      </fieldset>
+    </form>
+  </main>
 
   <footer role="contentinfo" class="footer pad-t-1-2 pad-b-1-2">
     <div class="wrapper gutter-1-2">
